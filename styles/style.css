@@ -27,7 +27,7 @@
 
 .logo_place_header {
   position: absolute;
-  left: 64px; 
+  left: 64px;
   top: 30px;
 }
 
@@ -354,7 +354,7 @@
 }
 
 .footer__column-links {
-  list-style-type: none;  
+  list-style-type: none;
   padding: 0;
   margin: 0 0 16px 0; 
 }
