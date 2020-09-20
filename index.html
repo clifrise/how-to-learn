@@ -9,14 +9,14 @@
 <body class="root">
   <div class="page">
     <header class="header">
-      <div class="logo logo_place_header"></div>
+      <a href="#" class="logo logo_place_header"></a>
       <h1 class="header__title">Научиться учиться</h1>
       <h2 class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни
-        <a href="#" class="header__link">Узнать &rarr;</a>
+        <a href="#" class="header__link" target="_blank">Узнать &rarr;</a>
       </h2>
       <img src="./images/header-image.png" alt="Опять двойка" class="header__main-illustration">
-      <div class="header__square-pic rotations"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -85,8 +85,8 @@
           Для тех, кто любит прокрастинировать
         </p>
         <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/J_89IMS5gJQ" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/0u3bccaRmmg" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/J_89IMS5gJQ" allowfullscreen></iframe>
+          <iframe class="video__iframe" src="https://www.youtube.com/embed/0u3bccaRmmg" allowfullscreen></iframe>
         </div>
       </section>
 
@@ -109,11 +109,11 @@
         </article>
       </section>
 
-      <section class="feinman">
-        <h2 class="feinman__title">Метод Фейнмана</h2>
-        <p class="feinman__subtitle">Выучить и не забыть</p>
-        <a href="#" class="feinman__link">Подробнее &rarr;</a>
-        <img class= "feinman__photo" src="./images/feynman.png" alt="Фотка Фейнмана">
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть</p>
+        <a href="#" class="feynman__link" target="_blank">Подробнее &rarr;</a>
+        <img class= "feynman__photo" src="./images/feynman.png" alt="Фотка Фейнмана">
       </section>
 
       <section class="digits">
@@ -175,7 +175,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <img src="./images/khan-book.jpg" alt="Книга Хана" class="khan__book-pic">
-            <a href="#" class="khan__buy-link">Купить книгу &rarr;</a>
+            <a href="#" class="khan__buy-link" target="_blank">Купить книгу &rarr;</a>
           </div>
         </div>
       </section>
@@ -229,7 +229,7 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </div>
         </div>
-        <div class="kaufman__triangle rotations"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
     </main>
     
@@ -237,17 +237,30 @@
       <h2 class="section-title resources__section-title">Полезные ресурсы</h2>
       <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
       <ul class="resources__logo-zone">
-        <li><a href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас"></a></li>
-        <li><a href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="N+1"></a></li>
-        <li><a href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка"></a></li>
-        <li><a href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка"></a></li>
+        <li>
+          <a href="#" target="_blank">
+            <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Арзамас">
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-n1.svg" alt="N+1">
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Стрелка">
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Полка">
+          </a>
+        </li>
       </ul>
     </section>
 
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <div class="logo logo_place_footer"></div>
+          <a href="#" class="logo logo_place_footer"></a>
           <p class="footer__author">&copy; 2020. Руслан Белый</p>
         </div>
         <nav class="footer__column footer__column_content_info">
@@ -264,28 +277,28 @@
             </li>
           </ul>
         </nav>
-        <div class="footer__column footer__column_content_social">
+        <nav class="footer__column footer__column_content_social">
           <h2 class="footer__column-header">Соцсети</h2>
           <ul class="footer__column-links">
             <li>
-              <a href="#" class="footer__column-link">
+              <a href="#" class="footer__column-link" target="_blank">
                 <img src="./images/facebook_color_white.svg" alt="Иконка Фейсбук" class="footer__social-icon">
                 Facebook
               </a>
             </li>
             <li>
-              <a href="#" class="footer__column-link"><img src="./images/vk_color_white.svg" alt="Иконка Вконтакте" class="footer__social-icon">
+              <a href="#" class="footer__column-link" target="_blank"><img src="./images/vk_color_white.svg" alt="Иконка Вконтакте" class="footer__social-icon">
                 Вконтакте
               </a>
             </li>
             <li>
-              <a href="#" class="footer__column-link">
+              <a href="#" class="footer__column-link" target="_blank">
                 <img src="./images/instagram_color_white.svg" alt="Иконка Инстаграм" class="footer__social-icon">
                 Instagram
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </footer>
   </div>
